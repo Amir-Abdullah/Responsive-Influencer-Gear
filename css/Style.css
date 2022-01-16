@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/* Core CSS tags */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 1200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* ---------------------------------*/ 
+/*---------header css tags----------*/
+.contain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.container.list > ul{
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+}
+/* ---------------------------------*/ 
+/*---------main css tags----------*/
+button{
+    background-color: red;
+    padding: 10px 25px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+/* 1st part */
+
+/* 3rd part */
+.star{
+    color: #FB8200;
+}
+b{
+    padding-left: 8px;
+}
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 20px;
+}
+.store{
+    box-shadow: red;
+}
+/* ---------------------------------*/ 
+/*---------footer css tags----------*/
+footer{
+    background-color: #0A0826;
+    color: #FFFFFF;
+}
+footer > div{
+    text-align: center;
+}
+.foot-icon{
+    width: 32px;
+    height: 32px;
+    color:white;
+}
